@@ -12,7 +12,8 @@ import time
 
 # Making a list of papers we want to download given by the stam number in the form yymm.xxxxx
 #list_of_arxs=[str(y)+(f'{m:02}.') + (f'{n:05}') for y in range(10,11) for m in range(1,2)  for n in range(1,100000)]
-list_of_arxs=[str(y)+(f'{m:02}.') + (f'{n:05}') for y in range(10,22) for m in range(1,13)  for n in range(1,100)]
+#list_of_arxs=[str(y)+(f'{m:02}.') + (f'{n:05}') for y in range(10,22) for m in range(1,13)  for n in range(1,100)]
+list_of_arxs=['2205.12948','2205.10000','2205.10001']
 
 working_dir ="./mydir2"       # specify working directory where tex files will be downloaded
 temp_dir='./mydir2/extracted2'  # specify temporary directory 
